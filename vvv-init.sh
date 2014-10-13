@@ -15,7 +15,7 @@ then
 	cd htdocs
 	wp core download 
 	wp core config --dbname="vvv_notallorder_demo1" --dbuser=wp --dbpass=wp --dbhost="localhost"
-	wp core install --url=NoTallOrderDemo1.dev --title="NoTallOrder Demo 1" --admin_user=admin --admin_password=password --admin_email=demo@example.com
+	wp core install --url=notallorder-demo1.dev --title="NoTallOrder Demo 1" --admin_user=admin --admin_password=password --admin_email=demo@example.com
 	cd ..
 fi
 
